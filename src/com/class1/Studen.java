@@ -1,13 +1,14 @@
-/*package com.class1;
-import java.util.Scanner;
+package com.class1;
+import java.util.Studen;
 
-public class Person {
+public class Studen{
+    int id;
     String name;
     String email;
-    int id;
+
 
     public void inputData(){
-        Scanner input = new Scanner(System.in);
+        Studen input = new Studen();
 
         System.out.println("Enter id: ");
         this.id = input.nextInt();
@@ -16,7 +17,7 @@ public class Person {
         this.name = input.nextLine();
 
         System.out.println("Enter email: ");
-        this.email = input.nextLine();
+        this.email = input.nexLine();
 
 
 
@@ -30,4 +31,3 @@ public class Person {
 
     }
 }
-*/
